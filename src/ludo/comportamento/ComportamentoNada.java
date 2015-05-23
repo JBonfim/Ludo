@@ -8,7 +8,7 @@ public class ComportamentoNada implements ComportamentoCasa{
 	@Override
 	public ResultadoAcao execultaAcao() {
 		// TODO Auto-generated method stub
-		return new ResultadoAcao(Acao.NADA, new Casa());
+		return new ResultadoAcao(Acao.NADA, "");
 	}
 
 }

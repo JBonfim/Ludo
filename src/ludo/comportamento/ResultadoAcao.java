@@ -5,18 +5,18 @@ import ludo.modelo.Casa;
 
 public class ResultadoAcao {
 	
-	private Casa destino;
+	private String id_casa_destino;
 	private Acao acao;
 	
-	public ResultadoAcao(Acao acao,Casa destino) {
+	public ResultadoAcao(Acao acao,String id_casa_destino) {
 		this.acao = acao;
-		this.destino = destino;
+		this.id_casa_destino = id_casa_destino;
 	}
 	public Acao getAcao() {
 		return acao;
 	}
-	public Casa getDestino() {
-		return destino;
+	public String getDestino() {
+		return id_casa_destino;
 	}
 	
 

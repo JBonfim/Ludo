@@ -8,7 +8,7 @@ public class ComportamentoRepete implements ComportamentoCasa{
 	@Override
 	public ResultadoAcao execultaAcao() {
 		// TODO Auto-generated method stub
-		return new ResultadoAcao(Acao.REPETE, new Casa());
+		return new ResultadoAcao(Acao.REPETE, "");
 	}
 
 }

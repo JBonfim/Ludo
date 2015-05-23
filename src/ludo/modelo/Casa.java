@@ -5,21 +5,21 @@ import ludo.comportamento.ResultadoAcao;
 
 public class Casa {
 	private String id;
-	private Casa proximo;
+	private String id_proximo_casa;
 	private ComportamentoCasa comportamento;
 	
 	
 	public Casa() {
 		// TODO Auto-generated constructor stub
 	}
-	public Casa(String id,Casa proximo,ComportamentoCasa comportamento) {
+	public Casa(String id,String id_proximo_casa,ComportamentoCasa comportamento) {
 		this.id = id;
-		this.proximo = proximo;
+		this.id_proximo_casa = id_proximo_casa;
 		this.comportamento = comportamento;
 	}
 	
-	public Casa getProximo() {
-		return proximo;
+	public String getProximo() {
+		return id_proximo_casa;
 	}
 	
 	public ResultadoAcao execultarAcao() {
